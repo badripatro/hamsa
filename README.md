@@ -1,6 +1,8 @@
 # HAMSA: Scanning-Free State Space Models via Spectral Processing - CVPR 2026
 
-![HAMSA Teaser](cvpr2026_hamsa/fig/hamsa_teaser.png)
+![HAMSA Teaser](fig/hamsa_teaser.png)
+
+![HAMSA Main](fig/hamsa_main.png)
 
 [![CVPR 2026 Paper](http://img.shields.io/badge/CVPR2026%20Paper-camera--ready-B31B1B.svg)](#)
 [![Project Page](https://img.shields.io/badge/Project%20Page-hamsa-B31B1B.svg)](#)
@@ -10,7 +12,7 @@
 
 Vision State Space Models (SSMs) like Vim, VMamba, and SiMBA rely on complex scanning strategies to process 2D images, introducing computational overhead and architectural complexity. **HAMSA** eliminates scanning entirely by operating directly in the spectral domain, achieving state-of-the-art performance with superior efficiency.
 
-![Filter Visualization](cvpr2026_hamsa/fig/filter_vis_hamsa.png)
+![Filter Visualization](fig/filter_vis_hamsa.png)
 *HAMSA (right) exhibits cleaner, more structured filter patterns compared to Vim and VMamba, suggesting more effective feature learning without scanning constraints.*
 
 ## Abstract
