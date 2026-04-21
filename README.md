@@ -2,7 +2,7 @@
 
 ![HAMSA Teaser](fig/hamsa_teaser.png)
 
-![HAMSA Main](fig/hamsa_main.png)
+
 
 [![CVPR 2026 Paper](http://img.shields.io/badge/CVPR2026%20Paper-camera--ready-B31B1B.svg)](#)
 [![Project Page](https://img.shields.io/badge/Project%20Page-hamsa-B31B1B.svg)](#)
@@ -35,7 +35,7 @@ By leveraging FFT-based convolution, HAMSA achieves O(L log L) complexity withou
 
 ## Architecture
 
-![HAMSA Architecture](cvpr2026_hamsa/fig/hamsa_main.png)
+![HAMSA Architecture](fig/hamsa_main.png)
 
 HAMSA replaces traditional SSM components with a simplified Gaussian-initialized kernel. Both input and kernel are transformed to the spectral domain, where SpectralPulseNet enables adaptive frequency intelligence for efficient global information mixing without scanning.
 
