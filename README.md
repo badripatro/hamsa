@@ -1,4 +1,4 @@
-# HAMSA: Scanning-Free State Space Models via Spectral Processing - CVPR 2026-Finding
+# HAMSA: Scanning-Free State Space Models via SpectralPulseNet - CVPR 2026-Finding
 
 ![HAMSA Teaser](fig/hamsa_teaser.png)
 
