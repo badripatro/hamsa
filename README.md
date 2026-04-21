@@ -1,4 +1,4 @@
-# HAMSA: Scanning-Free State Space Models via Spectral Processing - CVPR 2026
+# HAMSA: Scanning-Free State Space Models via Spectral Processing - CVPR 2026-Finding
 
 ![HAMSA Teaser](fig/hamsa_teaser.png)
 
@@ -6,7 +6,7 @@
 
 [![CVPR 2026 Paper](http://img.shields.io/badge/CVPR2026%20Paper-camera--ready-B31B1B.svg)](#)
 [![Project Page](https://img.shields.io/badge/Project%20Page-hamsa-B31B1B.svg)](#)
-[![arXiv](https://img.shields.io/badge/arXiv-2026.xxxxx-b31b1b.svg)](#)
+[![arXiv](https://img.shields.io/badge/arXiv-2604.14724-b31b1b.svg)](#)
 
 ## Overview
 
