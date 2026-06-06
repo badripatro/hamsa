@@ -2,15 +2,8 @@
 
 ![HAMSA Teaser](fig/hamsa_teaser.png)
 
-
-
-[![CVPR 2026 Paper](http://img.shields.io/badge/CVPR2026%20Paper-camera--ready-B31B1B.svg)](https://arxiv.org/abs/2604.14724)
-[![Project Page](https://img.shields.io/badge/Project%20Page-hamsa-B31B1B.svg)](https://badripatro.github.io/hamsa)
-[![arXiv](https://img.shields.io/badge/arXiv-2604.14724-b31b1b.svg)](https://arxiv.org/abs/2604.14724)
-
-
-[![CVPR 2026 Paper](http://img.shields.io/badge/CVPR%202026-Findings-B31B1B.svg)](https://openaccess.thecvf.com/content/CVPR2026F/papers/Patro_HAMSA_Scanning-Free_Vision_State_Space_Models_via_SpectralPulseNet_CVPRF_2026_paper.pdf)
-[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://badripatro.github.io/hamsa)
+[![CVPR 2026 Paper](http://img.shields.io/badge/CVPR%202026-camera--ready-B31B1B.svg)](https://openaccess.thecvf.com/content/CVPR2026F/papers/Patro_HAMSA_Scanning-Free_Vision_State_Space_Models_via_SpectralPulseNet_CVPRF_2026_paper.pdf)
+[![Project Page](https://img.shields.io/badge/Project%20Page-hamsa-green.svg)](https://badripatro.github.io/hamsa)
 [![arXiv](https://img.shields.io/badge/arXiv-2604.14724-b31b1b.svg)](https://arxiv.org/abs/2604.14724)
 [![GitHub](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/badripatro/hamsa)
 
