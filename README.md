@@ -13,7 +13,20 @@
   <a href="https://badripatro.github.io/hamsa"><img src="https://img.shields.io/badge/Project%20Page-Hamsa-green.svg" alt="Project Page"></a>
   <a href="https://arxiv.org/abs/2604.14724"><img src="https://img.shields.io/badge/arXiv-2604.14724-b31b1b.svg" alt="arXiv"></a>
   <a href="https://github.com/badripatro/hamsa"><img src="https://img.shields.io/badge/Code-GitHub-black.svg" alt="GitHub"></a>
+ <a href="fig/Hamsa_CVPR_FINDINGS_Poster.pdf"><img src="https://img.shields.io/badge/📄-Poster-orange.svg" alt="CVPR Poster"></a>
 </p>
+
+---
+
+## 📄 CVPR 2026 Poster
+
+<p align="center">
+  <a href="fig/Hamsa_CVPR_FINDINGS_Poster.pdf">
+    <img src="https://img.shields.io/badge/Download-CVPR%20Poster-orange?style=for-the-badge&logo=adobeacrobatreader" alt="Download Poster">
+  </a>
+</p>
+
+**View our CVPR 2026 Findings poster:** [Hamsa_CVPR_FINDINGS_Poster.pdf](fig/Hamsa_CVPR_FINDINGS_Poster.pdf)
 
 ---
 
