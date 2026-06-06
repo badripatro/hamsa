@@ -8,6 +8,12 @@
 [![Project Page](https://img.shields.io/badge/Project%20Page-hamsa-B31B1B.svg)](https://badripatro.github.io/hamsa)
 [![arXiv](https://img.shields.io/badge/arXiv-2604.14724-b31b1b.svg)](https://arxiv.org/abs/2604.14724)
 
+
+[![CVPR 2026 Paper](http://img.shields.io/badge/CVPR%202026-Findings-B31B1B.svg)](https://openaccess.thecvf.com/content/CVPR2026F/papers/Patro_HAMSA_Scanning-Free_Vision_State_Space_Models_via_SpectralPulseNet_CVPRF_2026_paper.pdf)
+[![Project Page](https://img.shields.io/badge/Project-Page-green.svg)](https://badripatro.github.io/hamsa)
+[![arXiv](https://img.shields.io/badge/arXiv-2604.14724-b31b1b.svg)](https://arxiv.org/abs/2604.14724)
+[![GitHub](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/badripatro/hamsa)
+
 ## Overview
 
 Vision State Space Models (SSMs) like Vim, VMamba, and SiMBA rely on complex scanning strategies to process 2D images, introducing computational overhead and architectural complexity. **HAMSA** eliminates scanning entirely by operating directly in the spectral domain, achieving state-of-the-art performance with superior efficiency.
@@ -199,12 +205,15 @@ HAMSA demonstrates strong transfer learning performance on various datasets:
 If you find HAMSA useful in your research, please consider citing:
 
 ```bibtex
-@inproceedings{patro2026hamsa,
-  title={HAMSA: Scanning-Free State Space Models via Spectral Processing},
-  author={Patro, Badri N and Agneeswaran, Vijay S},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) FINDINGS},
-  year={2026}
+@InProceedings{Patro_2026_CVPR,
+  author    = {Patro, Badri N and Agneeswaran, Vijay S},
+  title     = {HAMSA: Scanning-Free Vision State Space Models via SpectralPulseNet},
+  booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Findings},
+  month     = {June},
+  year      = {2026},
+  pages     = {14724-14734}
 }
+```
 
 ```
 
