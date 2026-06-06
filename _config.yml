@@ -1,1 +1,21 @@
+title: HAMSA - Scanning-Free Vision State Space Models
+description: CVPR 2026 Findings | Rethinking Vision SSMs via Spectral Processing
 theme: jekyll-theme-cayman
+baseurl: "/hamsa"
+url: "https://badripatro.github.io"
+
+# Markdown engine
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+# Include files
+include:
+  - README.md
+  - index.md
