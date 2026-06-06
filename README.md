@@ -1,11 +1,21 @@
-# HAMSA: Scanning-Free State Space Models via SpectralPulseNet - CVPR 2026-Finding
+# HAMSA: Scanning-Free Vision State Space Models via SpectralPulseNet
 
-![HAMSA Teaser](fig/hamsa_teaser.png)
+<p align="center">
+  <h3 align="center">CVPR 2026 Findings</h3>
+</p>
 
-[![CVPR 2026 Paper](http://img.shields.io/badge/CVPR%202026-camera--ready-B31B1B.svg)](https://openaccess.thecvf.com/content/CVPR2026F/papers/Patro_HAMSA_Scanning-Free_Vision_State_Space_Models_via_SpectralPulseNet_CVPRF_2026_paper.pdf)
-[![Project Page](https://img.shields.io/badge/Project%20Page-hamsa-green.svg)](https://badripatro.github.io/hamsa)
-[![arXiv](https://img.shields.io/badge/arXiv-2604.14724-b31b1b.svg)](https://arxiv.org/abs/2604.14724)
-[![GitHub](https://img.shields.io/badge/Code-GitHub-black.svg)](https://github.com/badripatro/hamsa)
+<p align="center">
+  <strong>Badri N Patro</strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>Vijay S Agneeswaran</strong>
+</p>
+
+<p align="center">
+  <a href="https://openaccess.thecvf.com/content/CVPR2026F/papers/Patro_HAMSA_Scanning-Free_Vision_State_Space_Models_via_SpectralPulseNet_CVPRF_2026_paper.pdf"><img src="https://img.shields.io/badge/CVPR%202026-Findings-B31B1B.svg" alt="CVPR 2026 Findings"></a>
+  <a href="https://badripatro.github.io/hamsa"><img src="https://img.shields.io/badge/Project-Page-green.svg" alt="Project Page"></a>
+  <a href="https://arxiv.org/abs/2604.14724"><img src="https://img.shields.io/badge/arXiv-2604.14724-b31b1b.svg" alt="arXiv"></a>
+  <a href="https://github.com/badripatro/hamsa"><img src="https://img.shields.io/badge/Code-GitHub-black.svg" alt="GitHub"></a>
+</p>
+
+---
 
 ## Overview
 
@@ -37,6 +47,42 @@ By leveraging FFT-based convolution, HAMSA achieves O(L log L) complexity withou
 ![HAMSA Architecture](fig/hamsa_main.png)
 
 HAMSA replaces traditional SSM components with a simplified Gaussian-initialized kernel. Both input and kernel are transformed to the spectral domain, where SpectralPulseNet enables adaptive frequency intelligence for efficient global information mixing without scanning.
+
+---
+
+## 🔍 Conceptual Shift: From Sequential Scans to Simultaneous Spectral Mixing
+
+<p align="center">
+  <img src="fig/scan_base_ssm_vs_hamsa.png" width="900">
+</p>
+
+<p align="center">
+  <img src="fig/no_scan_ssm.png" width="750">
+</p>
+
+### The Fundamental Difference
+
+**Traditional Vision SSMs (Vim, VMamba, SiMBA):**
+- Convert 2D images → 1D sequences via scanning (horizontal, vertical, diagonal)
+- Process tokens sequentially with recurrent state updates
+- Multiple directional passes to capture spatial relationships
+- O(4L²) complexity from multi-directional scanning
+- **Analogy:** Reading an image line-by-line, pixel-by-pixel
+
+**HAMSA (Spectral Processing):**
+- Operates directly in frequency domain via FFT
+- All spatial locations interact simultaneously
+- Single forward pass for global information mixing
+- O(L log L) complexity
+- **Analogy:** Instantly perceiving the whole picture at once
+
+> **Key Insight:** You don't understand a photograph by processing pixels sequentially—you perceive it holistically. HAMSA models vision the same way.
+
+**Why This Matters:**
+- Images are 2D spatial fields where all relationships exist simultaneously
+- Sequential scanning enforces artificial dependencies that don't reflect visual structure
+- SSMs are mathematically equivalent to convolutions, which can be computed efficiently in frequency domain
+- No scanning = No directional bias + Full parallelization + Natural for 2D data
 
 ## Comparison with Scanning-Based Methods
 
@@ -208,7 +254,6 @@ If you find HAMSA useful in your research, please consider citing:
 }
 ```
 
-```
 
 ## Acknowledgements
 
